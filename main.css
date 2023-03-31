@@ -1,0 +1,63 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar{
+    background-color: #5F9EA0 ;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #5F9EA0;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-loja .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.section-title{
+    font-family: 'Alkatra', cursive;
+}
+
+
+#sobre-o-complexo,
+#produtos{
+    background-color: #e0eff0;
+}
+
+.text-colored{
+    color: #5F9EA0;
+}
+
+.nav-loja .nav-link.active,
+#contato button{
+    background-color: #5F9EA0;
+    color: #fff;
+}
+.nav-loja .nav-link:hover{
+    color: #5F9EA0;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carrousel-item img{
+        height: 280px;
+    }
+}
+

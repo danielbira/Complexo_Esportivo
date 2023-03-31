@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complexo Beach Tennis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Complexo de Beach Tennis</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-complexo" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o complexo</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-complexo">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/slide1.jpg" class="d-block w-100" style="height: 70vh;">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide2.jpg" class="d-block w-100" style="height: 70vh;">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide3.jpeg" class="d-block w-100" style="height: 70vh;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/ace.jpg" class="d-block w-100 rounded" alt="Foto do espaço">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o complexo</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum minus provident a eaque, quaerat quibusdam laudantium, iusto odit voluptatem illo fugiat, quo inventore reprehenderit eligendi. Amet, illum odit! At, sequi?
+                            </p>
+                            <h3 class="section-title text-colored">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur eaque perferendis reprehenderit, illum facere, dolore dicta nesciunt magnam totam qui illo earum animi quam explicabo maxime? Quo, hic earum?
+                            </p>
+                            <ul>
+                                <li>Aulas</li>
+                                <li>Torneio</li>
+                                <li>Competição</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Venha fazer seu <span class="text-colored">evento aqui</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/eventos/aulas.png" style="height: 40vh;" class="d-block w-100 rounded mb-2" style="height: 40vh;">
+                        <h3 class="section-title text-colored fs-5">
+                            <i class="bi bi-universal-access"></i>
+                            Aulas de Beach Tennis</h3>
+                        <p>
+                            Aulas para todos os níveis de alunos
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/eventos/rotativo.png" class="d-block w-100 rounded mb-2" style="height: 40vh;">
+                        <h3 class="section-title text-colored fs-5">
+                            <i class="bi bi-person"></i>
+                            Rotativo de Beach Tennis</h3>
+                        <p>
+                            Complexo possui rotativo de BT todos os dias
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/eventos/torneio.png" class="d-block w-100 rounded mb-2" style="height: 40vh;">
+                        <h3 class="section-title text-colored fs-5">
+                            <i class="bi bi-trophy"></i>
+                            Torneio de Beach Tennis</h3>
+                        <p>
+                            Venha fazer o seu torneio aqui no complexo atravês do link <a href="contato">contato</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 mb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">produtos</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <div class="nav nav-pills flex-column nav-loja">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#raquete" class="fw-bold text-start nav-link text-colored active">Raquetes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#vestimento" class="fw-bold text-start nav-link text-colored">Vestuário</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios" class="fw-bold text-start nav-link text-colored">Acessórios</button>
+                        </div> 
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="raquete">
+                                <div class="row">
+                                    <div class="col md-3">
+                                        <img class="d-block" src="./images/produtos/raquete/kona.png" width="150" height="200">
+                                        <h3 class="text-colored fw-bold">Kona</h3>
+                                        <p>
+                                            Material fibra de carbono peso 180gr
+                                        </p>
+                                    </div>
+                                    <div class="col md-3">
+                                        <img class="d-block" src="./images/produtos/raquete/mormaii.png" width="150" height="200">
+                                        <h3 class="text-colored fw-bold">Mormaii</h3>
+                                        <p>
+                                            Material fibra de carbono peso 180gr
+                                        </p>
+                                    </div>
+                                    <div class="col md-3">
+                                        <img class="d-block w-100" src="./images/produtos/raquete/nox.png" width="150" height="200">
+                                        <h3 class="text-colored fw-bold">Nox</h3>
+                                        <p>
+                                            Material fibra de carbono peso 180gr
+                                        </p>
+                                    </div>
+                                    <div class="col md-3">
+                                        <img class="d-block w-100" src="./images/produtos/raquete/shark.png" width="150" height="200">
+                                        <h3 class="text-colored fw-bold">Shark</h3>
+                                        <p>
+                                            Material fibra de carbono peso 180gr
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="vestimento">
+                                <div class="row">
+                                    <div class="col md-3">
+                                        <img class="d-block" src="./images/produtos/vestimentos/bermuda.png" width="150" height="200">
+                                        <h3 class="text-colored fw-bold">Bermuda</h3>
+                                        <p>
+                                            Material 100% Algodão
+                                        </p>
+                                    </div>
+                                    <div class="col md-3">
+                                        <img class="d-block" src="./images/produtos/vestimentos/camiseta.png" width="150" height="200">
+                                        <h3 class="text-colored fw-bold">Camiseta</h3>
+                                        <p>
+                                            Material 100% Algodão
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="acessorios">
+                                <div class="row">
+                                    <div class="col md-3">
+                                        <img class="d-block" src="./images/produtos/acessorios/bolinha.png" width="150" height="200">
+                                        <h3 class="text-colored fw-bold">Bolinha</h3>
+                                        <p>
+                                            Bola para a prática de BT
+                                        </p>
+                                    </div>
+                                    <div class="col md-3">
+                                        <img class="d-block" src="./images/produtos/acessorios/munhequeira.jpg" width="150" height="200">
+                                        <h3 class="text-colored fw-bold">Munhequeira</h3>
+                                        <p>
+                                            MMunhequeira para a prática de BT
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3 ">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" name="nome">
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail:</label>
+                                <input type="text" id="email" class="form-control" name="email">
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="tel" class="form-label fw-bold text-colored">Seu telefone: (opcional)</label>
+                                <input type="tel" id="tel" class="form-control" name="tel">
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem:</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Socias</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>
+                                Rua Amazonas nº 340, Florianópolis - SC
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./lib/jquery.validate.min.js"></script>
+    <script src="./lib/messages_pt_BR.min.js"></script>
+    
+
+    <script>
+        $(document).ready(function(){
+            $('#tel').mask('(00) 00000-0000')
+        })
+
+        $('form').validate({
+            rules: {
+                nome: {
+                    required:true
+                },
+                email: {
+                    required:true,
+                    email: true
+                },
+                mensagem: {
+                    required:true
+                },
+                tel:{
+                    required:true
+                },
+            }
+        })
+    </script>
+</body>
+</html>
